@@ -1,0 +1,222 @@
+/* You may use the following selectors, but it's not required. */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #b3b300;
+}
+
+.active {
+    background-color: #b3b300;
+}
+
+#container {
+    width: 960px;
+    margin: 0px auto;
+    padding: 30px 0px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#thumbnail {
+
+}
+
+#thumbnail img {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+
+}
+
+#header {
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: bold;
+}
+
+#subheader {
+    /*padding-bottom: 20px;*/
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#contact_subheader {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+#contact_header {
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: bold;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#description {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/*#link {
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 150px;
+    background-color: #2196F3;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    
+}*/
+
+.container {
+    background-color: white;
+    margin: auto;
+    width: 35%;
+    border: 3px solid black;
+    padding: 10px;
+    float: right;
+    margin-right: 20px;
+}
+
+.form_container {
+    width: 35%;
+    border: 3px solid black;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 60px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/*.form_container .list-container {
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin: 0 auto;
+    width: 500px;
+    float: right;
+}*/
+
+.list-content {
+    float: right;
+    padding: 20px;
+    margin-right: 60px;
+}
+
+.list-item {
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 350px;
+    font-weight: 700;
+}
+
+#icon {
+}
+
+#icon img {
+    float: left;
+    width: 30px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.list-container {
+    padding: 30 20;
+    background-color: #f5f5f5;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 100%;
+    width: 1000px; 
+    background: #f5f5f5;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.list-title {
+    margin: 10;
+    font-weight: bolder;
+    font-size: 25px;
+}
